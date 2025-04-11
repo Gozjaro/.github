@@ -1,1 +1,0 @@
-# Gozjaro Linux
