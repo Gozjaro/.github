@@ -75,3 +75,6 @@ Gozjaro Linux 的特点：
 ---
 
 > **Gozjaro Linux** —— 自由构建，自在探索。
+
+
+[English](README.md)
