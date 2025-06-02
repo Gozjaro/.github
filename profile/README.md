@@ -74,3 +74,4 @@ All projects in this organization follow **open source licenses**. Each reposito
 
 > **Gozjaro Linux** — Build. Customize. Explore.
 
+[简体中文](README.zh-cn.md)
