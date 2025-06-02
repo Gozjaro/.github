@@ -1,3 +1,4 @@
+![](logo.png)
 # 🌀 Gozjaro Linux
 
 Welcome to the **official GitHub organization of Gozjaro Linux** — a minimalist, elegant, and fully customizable Linux distribution built from scratch, powered by [Pacman](https://wiki.archlinux.org/title/Pacman).
