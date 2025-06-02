@@ -1,3 +1,5 @@
+![](logo.png)
+
 # 🌀 Gozjaro Linux
 
 欢迎来到 **Gozjaro Linux 的官方 GitHub 组织**！
