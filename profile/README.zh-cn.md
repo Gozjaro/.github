@@ -4,7 +4,7 @@
 
 欢迎来到 **Gozjaro Linux 的官方 GitHub 组织**！
 
-Gozjaro 是一个极简、优雅、完全可定制的 Linux 发行版 —— 从零开始构建，使用 [Pacman](https://wiki.archlinux.org/title/Pacman) 作为软件包管理器。
+Gozjaro 是一个极简、优雅、完全可定制的 Linux 发行版 —— 从零开始构建，使用 **gozpak**（Gozjaro 自研包管理器）作为软件包管理器。
 
 Gozjaro 不只是一个发行版，它是为开发者、进阶用户和富有好奇心的探索者准备的一块“白纸”，让你可以自由搭建属于你自己的操作系统 —— 高性能，无冗余，完全掌控。
 
@@ -15,7 +15,7 @@ Gozjaro 不只是一个发行版，它是为开发者、进阶用户和富有好
 Gozjaro Linux 的特点：
 
 - 基于 **LFS（Linux From Scratch）** 构建
-- 使用 **Pacman** 软件包管理器
+- 使用 **gozpak** 作为包管理器（自研，kiss 风格，Rust 重写进行中）
 - 提供 **纯终端 ISO 镜像**
 - **不预装桌面环境**，你可以自行选择并安装
 - 面向 **进阶用户和开发者**
@@ -29,7 +29,7 @@ Gozjaro Linux 的特点：
 ## 🚀 项目目标
 
 - ⚙️ 提供灵活、简洁的 Linux 基础环境，供用户自由定制
-- 🧩 构建使用 `pacman` 的简洁软件生态
+- 🧩 使用 `gozpak`（自研包管理器）构建强大而简洁的软件生态
 - 🌐 建设一个开放、包容、有爱的开发与使用社区
 - 📚 鼓励动手学习，弘扬 DIY 精神
 - 🔧 开发工具和脚本，简化系统搭建流程
@@ -44,6 +44,8 @@ Gozjaro Linux 的特点：
 - [`gozjaro-bootstrap`](https://github.com/Gozjaro/gozjaro-bootstrap)：构建 Gozjaro 的启动脚本与构建流程
 - [`gozjaro-pkgs`](https://github.com/Gozjaro/gozjaro-pkgs)：Gozjaro 软件包配方与源码追踪
 - [`gozjaro-iso`](https://github.com/Gozjaro/gozjaro-iso)：用于生成 Gozjaro ISO 的脚本与配置
+- [`gozpak`](https://github.com/Gozjaro/gozpak)：Gozjaro 自研包管理器（kiss 风格，Rust 重写进行中）
+- [`gozjaro-repo`](https://github.com/Gozjaro/gozjaro-repo)：官方 gozpak 仓库 —— 配方 + 二进制包（GitHub Releases 托管）
 - *(更多项目即将推出...)*
 
 ---

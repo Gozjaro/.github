@@ -1,7 +1,7 @@
 ![](logo.png)
 # 🌀 Gozjaro Linux
 
-Welcome to the **official GitHub organization of Gozjaro Linux** — a minimalist, elegant, and fully customizable Linux distribution built from scratch, powered by [Pacman](https://wiki.archlinux.org/title/Pacman).
+Welcome to the **official GitHub organization of Gozjaro Linux** — a minimalist, elegant, and fully customizable Linux distribution built from scratch, powered by **gozpak**, our in-house package manager.
 
 Gozjaro is not just a distro. It's a **blank canvas** for developers, power users, and curious minds who want to build their systems from the ground up — with full control, high performance, and no unnecessary bloat.
 
@@ -12,7 +12,7 @@ Gozjaro is not just a distro. It's a **blank canvas** for developers, power user
 Gozjaro Linux is:
 
 - **Built from LFS** (Linux From Scratch)
-- Uses **Pacman** as the package manager
+- Uses **gozpak** as the package manager (in-house, kiss-style; Rust rewrite in progress)
 - Ships as a **terminal-only ISO**
 - **Desktop Environment agnostic** — you choose what to install
 - Aimed at **power users and developers**
@@ -26,7 +26,7 @@ Gozjaro Linux is:
 ## 🚀 Project Goals
 
 - ⚙️ Provide a flexible, simple Linux base for customization
-- 🧩 Build a powerful and minimal package ecosystem with `pacman`
+- 🧩 Build a powerful and minimal package ecosystem with `gozpak` (our in-house package manager)
 - 🌐 Foster an open, inclusive, and welcoming community
 - 📚 Encourage learning through doing — inspired by the DIY spirit
 - 🔧 Develop tools and scripts to make customization easier
@@ -41,6 +41,8 @@ Explore our work:
 - [`gozjaro-bootstrap`](https://github.com/Gozjaro/gozjaro-bootstrap): Bootstrap scripts for building Gozjaro from LFS
 - [`gozjaro-pkgs`](https://github.com/Gozjaro/gozjaro-pkgs): Gozjaro package build recipes and source tracking
 - [`gozjaro-iso`](https://github.com/Gozjaro/gozjaro-iso): Scripts and configs for generating the Gozjaro ISO
+- [`gozpak`](https://github.com/Gozjaro/gozpak): Gozjaro's in-house package manager (kiss-style; Rust rewrite in progress)
+- [`gozjaro-repo`](https://github.com/Gozjaro/gozjaro-repo): Official gozpak repository — recipes + binary packages (hosted via GitHub Releases)
 - *(More coming soon...)*
 
 ---
